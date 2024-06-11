@@ -1,0 +1,63 @@
+.font-secondary{
+    font-family: 'Pacifico', cursive;
+    color:#FEA116
+    
+  }
+  .color-custom{
+    color:#FEA116
+  
+  }
+  .bg-custom{
+    background-color: #FEA116 !important;
+    color:white !important;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .font-text{
+    font-family:"Nunito",sans-serif;
+  }
+  .title-section{
+    position: relative;
+  }
+  .title-section::after{
+    content: '';
+      height: 2px;
+      width: 100px;
+      position: absolute;
+      background-color: #FEA116;
+      top: 55%;
+  }
+   .border-primary{
+    color: #FEA116 !important;
+    font-weight: 500 !important;
+  } 
+  .title-menu{
+    position: relative;
+  }
+  .title-menu::after{
+    content: '';
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    background-color: #FEA116;
+    top: 55%;
+  }
+  .title-menu::before{
+    content: '';
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    background-color: #FEA116;
+    top: 55%;
+    left: 37%;
+  }
+  /* .title-menu::before{
+    content: 'errrr';
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    background-color: #FEA116;
+    top: 55%;
+  } */
+
+  
